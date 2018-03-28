@@ -15,10 +15,11 @@ def sort_array_char_count (string_array)
 end
 
 def swap_elements (array)
-  tmp = array[1]
-  array[1]=array[2]
-  array[2]=tmp
-  array
+  array[1], array[2] = array[2], array[1]
+#  tmp = array[1]
+#  array[1]=array[2]
+#  array[2]=tmp
+#  array
 end
 
 def swap_elements_from_to (array, index, destination)
